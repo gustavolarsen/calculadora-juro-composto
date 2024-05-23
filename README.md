@@ -14,3 +14,5 @@ _VF_ = valor futuro \
 _PV_ = valor presente (valor inicial investido) \
 _i_ = taxa de juros anual \
 _n_ = tempo do investimento em anos
+
+Pode experimentar a calculadora por esse [link](https://gustavolarsen.github.io/calculadora-juro-composto/)
