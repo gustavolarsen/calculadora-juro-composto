@@ -5,6 +5,12 @@ function calculateCompoundInterest() {
   const time = parseInt(document.getElementById('time').value);
   const taxRate = parseFloat(document.getElementById('tax').value) / 100;
 
+  // Verifica se todos os campos obrigatórios foram preenchidos
+  if (isNaN(principal) || isNaN(rate) || isNaN(time) || isNaN(taxRate)) {
+    alert('Por favor, preencha todos os campos obrigatórios.');
+    return;
+  }
+
   // Calcula o valor futuro
   const futureValue = principal * Math.pow(1 + rate, time);
 
