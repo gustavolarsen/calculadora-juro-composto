@@ -19,10 +19,10 @@ Pode experimentar a calculadora por esse [link](https://gustavolarsen.github.io/
 
 ## Telas
 
-![Tela1](https://github.com/gustavolarsen/calculadora-juro-composto/assets/55494775/d1fe6b74-e102-4a2c-8dbb-c7c579a4a528)
+<img src="https://github.com/gustavolarsen/calculadora-juro-composto/assets/55494775/d1fe6b74-e102-4a2c-8dbb-c7c579a4a528" width=30% height=30%>
 
-![Tela2](https://github.com/gustavolarsen/calculadora-juro-composto/assets/55494775/061dc0d5-33fe-485c-845c-a6d888c9f2ec)
+<img src="https://github.com/gustavolarsen/calculadora-juro-composto/assets/55494775/061dc0d5-33fe-485c-845c-a6d888c9f2ec" width=30% height=30%>
 
-![Tela3](https://github.com/gustavolarsen/calculadora-juro-composto/assets/55494775/9928b26b-0888-4e36-9b06-37c5d482e027)
+<img src="https://github.com/gustavolarsen/calculadora-juro-composto/assets/55494775/9928b26b-0888-4e36-9b06-37c5d482e027" width=30% height=30%>
 
 
