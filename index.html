@@ -28,6 +28,8 @@
           <label for="principal">Valor do Investimento (R$):</label>
           <input
             type="text"
+            inputmode="numeric"
+            pattern="[0-9]*"
             id="principal"
             name="principal"
             required />
@@ -36,6 +38,8 @@
           <label for="rate">Taxa de Juros Anual (%):</label>
           <input
             type="text"
+            inputmode="numeric"
+            pattern="[0-9]*"
             id="rate"
             name="rate"
             step="0.01"
@@ -45,6 +49,8 @@
           <label for="time">Tempo (anos):</label>
           <input
             type="text"
+            inputmode="numeric"
+            pattern="[0-9]*"
             id="time"
             name="time"
             required />
@@ -53,6 +59,8 @@
           <label for="tax">Imposto de Renda (%):</label>
           <input
             type="text"
+            inputmode="numeric"
+            pattern="[0-9]*"
             id="tax"
             name="tax"
             step="0.01"
