@@ -1,25 +1,15 @@
 function calculateCompoundInterest() {
   // Obtém os valores dos inputs
-  const principalInput = document.getElementById('principal').value.trim();
-  const rateInput = document.getElementById('rate').value.trim();
-  const timeInput = document.getElementById('time').value.trim();
-  const taxInput = document.getElementById('tax').value.trim();
+  const principal = parseFloat(document.getElementById('principal').value);
+  const rate = parseFloat(document.getElementById('rate').value) / 100;
+  const time = parseInt(document.getElementById('time').value);
+  const taxRate = parseFloat(document.getElementById('tax').value) / 100;
 
-  // Verifica se todos os campos obrigatórios foram preenchidos
-  if (
-    principalInput === '' ||
-    rateInput === '' ||
-    timeInput === '' ||
-    taxInput === ''
-  ) {
-    alert('Por favor, preencha todos os campos obrigatórios.');
+  // Verifica se os valores inseridos são números válidos
+  if (isNaN(principal) || isNaN(rate) || isNaN(time) || isNaN(taxRate)) {
+    alert('Por favor, insira valores numéricos válidos em todos os campos.');
     return;
   }
-
-  const principal = parseFloat(principalInput);
-  const rate = parseFloat(rateInput) / 100;
-  const time = parseInt(timeInput);
-  const taxRate = parseFloat(taxInput) / 100;
 
   // Verifica se os valores inseridos são números válidos
   if (isNaN(principal) || isNaN(rate) || isNaN(time) || isNaN(taxRate)) {
